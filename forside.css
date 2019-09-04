@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* NB United logo */
+.nblogo2{
+    width: 170px;
+}
+/* nav bar (opret) */
+.button.is-primary{
+    background-color: black;
+}
+
+/* NB Logo (footer) */
+.nblogo{
+width: 100px;
+height: 100px;
+}
+
+/* footer */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 4;
+    width: 100%;
+    background-color: rgba(11, 110, 11, 0.5);
+    color: white;
+    text-align: center;
+  }
+
+  /* Grid Layout forside */
+  .item1 { grid-area: header; }
+  .item2 { grid-area: menu; }
+  .item5 { grid-area: footer; }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu footer footer footer footer footer';
+      grid-gap: 0px;
+    background-color: rgba(0, 128, 0, 0.418);
+
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 2px 0;
+    font-size: 30px;
+  }
+
+/* Grid Elements forside */
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 1px;
+  }
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(10, 107, 23, 0.651);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+/* Forsides billede */
+
+  .nbforside{
+      height: 100px;
+      width: 100px;
+  }
